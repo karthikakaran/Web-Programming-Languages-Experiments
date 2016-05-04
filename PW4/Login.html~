@@ -1,0 +1,21 @@
+<html>
+<title>Login</title>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<h1><center><strong>Login Form</strong></center></h1>
+</head>
+   <body>	
+       <center>
+         <div style = "width:400px; border: solid 1px #333333;" align = "center">
+            <div style = "margin:30px">
+		<form action="welcome.php" method="post">
+		Name: <input type="text" name="uname" required><br>
+		Password: <input type="text" name="fullname" required><br>
+		E-mail: <input type="email" name="emailId" required><br>
+		<input type="submit" value="Submit"/>
+		</form>
+		</div>		
+         </div>
+      </center>
+  </body>
+</html>

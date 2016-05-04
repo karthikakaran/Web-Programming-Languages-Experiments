@@ -1,0 +1,63 @@
+  .d1{    
+      background-color: #BDC3c7; 
+      color:black;
+      font-family:sans-serif; 
+      font-size:20px;
+  }
+  .d2{
+      background: #2980B9; 
+      color:white;
+      font-family:sans-serif;
+      font-size:23px;
+  }
+  .navbar {
+      background-color: #5C3317;
+      border: 0;
+      font-family:sans-serif;
+      font-size:20px !important;
+      border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #5C3317 !important;
+      background-color: #BDC3c7 !important;
+  }
+  .pinkText{
+     color:#990000;
+  }
+  h3{
+       background-color:black;
+       text-align:left;
+       padding-top:7px;
+       padding-bottom:7px;
+       padding-left:14px;
+  }
+  .padLeftP{
+       padding-left:40px;
+  }
+  .pLineHeight{ 
+       line-height: 170%;
+  }
+  .part2Div{
+       padding-top: 5cm; padding-bottom: 13cm; line-height: 200%;
+  }
+  .textBox{
+       padding-left: 13px; padding-right: 3cm;
+  }
+  .utd{
+      color: orange; font-weight: bold;
+  }
+  .italic{
+      font-style:italic;
+  }
+  .fontSizeCert{
+      font-size:25px;
+  }
+  .boldText{
+    font-weight:bold;
+  }
+  .sanSerifFont{
+	font-family:sans-serif;
+  }

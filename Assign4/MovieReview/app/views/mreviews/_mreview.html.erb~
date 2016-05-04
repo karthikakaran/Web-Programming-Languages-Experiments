@@ -1,0 +1,13 @@
+<p>
+  <strong>Reviewer:</strong>
+  <%= mreview.reviewer %>
+</p>
+ 
+<p>
+  <strong>Comment:</strong>
+  <%= mreview.comment %>
+</p>
+ 
+<p><%= link_to 'Reset message', { controller: 'mreviews_controller', action: 'delete' }, data: {confirm: 'Are you sure?'} %>
+  
+</p>

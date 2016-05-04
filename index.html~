@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Karthika Karunakaran Profile</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Profile of Karthika">
+  <meta name="keywords" content="About, Profile picture, Contacts, Links">
+  <meta name="author" content="Karthika">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/png" href="home_favi.png" sizes="16x16"/>
+</head>
+<body class="d1">
+   <div class="container-fluid">
+       <div class="row">
+    	   <div class="col-sm-8">
+	       <div class="row">
+                  <nav class="navbar navbar-default" id="top">
+                     <ul class="nav navbar-nav">
+		       <li class="active"><a href="#Homepage">Homepage</a></li>
+		       <li><a href="#Education">Education</a></li>
+		       <li><a href="#Experience">Experience</a></li>
+		       <li><a href="#Projects">Projects</a></li>
+		       <li><a href="#Certifications">Certifications</a></li>
+		       <li><a href="#Links">Links</a></li>
+		       <li><a href="#Contacts">Contacts</a></li>
+		     </ul>
+		  </nav>  
+              </div>
+           <div class="row d1 padLeftP">
+              <br>
+              <h1 class="pinkText">Karthika Karunakaran</h1>
+              <p><span class="italic">Graduate Student Pursuing my Masters in Computer Science</span></p>
+              <br>
+              <div class="col-sm-4">
+                   <img src="profile.jpg" alt="Profile picture" width="300" height="300" class="thumbnail">
+              </div>
+              <div class="col-sm-8">
+                 <p class="pLineHeight">I am a passionate learner pursuing Masters in Computer Science after having worked for 4+ years in Software Industry. The experience gave me opportunities to work on all layers like front-end, back-end and business logic layer. I had worked on all phases of SDLC through these years. <br>
+      I had worked with many reputed US based clients and had direct interactions with them. Application development interests me much. I have production experience on languages like AngularJS, JAVA, HTML, MySQL database and hands-on experience on C++, Oracle PL/SQL, Javascript, PHP.
+      My current curriculum in <span class="utd" data-toggle="tooltip" title="University of Texas at Dallas">UTD</span> gave me a visibility to database design, cloud computing, web programming languages. <br>
+                 </p>
+             </div>
+             <div>
+                 <p class="pLineHeight">
+I love learning new technologies and exploring full stack application development. My academic pursuits have not however occluded my participation from co-curricular and extra-curricular activities. I have participated and won various awards in intramural, inter-college sports and continued the same at Infosys as well. I had also volunteered and organized many events and symposiums in college as well as at Infosys. I am a part of organizations in <span class="utd" data-toggle="tooltip" title="University of Texas at Dallas">UTD</span> as well. These paved a path to improve my inter-personal skills like communication skills, management skills. etc.<br>
+		  &emsp; &emsp;&emsp;In addition to being a lead developer, I was coordinating my team as a senior member, mentoring new comers. I believe with all these skills I could mold and fit my myself in different working environments and teams.
+             </div>
+          </div>
+<div class="padLeftP" id="Education">
+<h2 class="pinkText">Education</h2>
+The University of Texas at Dallas<br>
+Masters in Computer Science<br>
+2015 - 2017 <span class="glyphicon glyphicon-hourglass"></span><br>
+GPA : 3.56<br>
+<br>
+Kumaraguru College Of Technology, Anna University, India<br>
+Bachelors in Computer Science and Engineering<br>
+2006 - 2010 <span class="glyphicon glyphicon-education"></span><br>
+GPA : 3.86<br>
+</div>
+<span class="glyphicon glyphicon-hand-up" style="position: fixed;padding-left:1150px;"> <a href="#top">TOP</a></span>
+<div class="padLeftP" id="Projects">
+<h2 class="pinkText">Acamedic Projects</h2>
+<span class="boldText">Masters</span>
+<ul>
+<li class="glyphicon glyphicon-file"> Online Library Management with multiple branches using AngularJS, Node.js, HTML5, CSS, Bootstrap - Fall 2015<br>
+<li class="glyphicon glyphicon-file"> Deploying private Cloud using OpenStack on VirtualBox - Fall 2015<br>
+<li class="glyphicon glyphicon-file"> Benchmarking IaaS providers with Cassandra cluster using YCSB - Fall 2015<br>
+</ul>
+<span class="boldText">Bachelors</span>
+<ul>
+<li class="glyphicon glyphicon-file"> Implemented a project on "Task scheduling in Distributed computing by Ant-Colony Algorithm" - Apr 2010<br>
+</ul>
+</div>
+<div class="padLeftP" id="Experience">
+<h2 class="pinkText">Experience</h2>
+<span class="boldText">Technology Analyst - Infosys Limited</span><br>
+November 2014 - July 2015 Bengaluru Area, India<br>
+<span class="boldText padLeftP">Web application developer of the Marketing Portfolio of a US banking client</span>
+<ul>
+<li>I revitalized the portal using AngularJS, JBoss, Oracle, HTML & CSS from KnockoutJS</li>
+<li>Involved in testing the application</li>
+<li>Lead developer in the team, co-ordinated and assisted junior members in the team</li>
+</ul>
+<br>
+<span class="boldText">Senior System Engineer - Infosys Limited</span><br>
+January 2013 - October 2014 Bengaluru Area, India<br>
+<span class="boldText padLeftP">Lead developer in development of Credit system of a US banking client</span>
+<ul>
+<li>Developer in the rule engine application, participated in deployment and testing</li>
+<li>Served as point of contact for the team and trained new comers</li>
+<li>Gained production experience on Drools, JAVA, Eclipse, WebLogic server, Rational Team Concert</li>
+</ul>
+<br>
+<span class="boldText">System Engineer - Infosys Limited</span><br>
+December 2010 - November 2012 Bengaluru Area, India<br>
+<span class="boldText padLeftP">Developer in Automation of Retirement benefits calculation engine of a US banking client</span>
+<ul>
+<li>Was trained in Open Systems technology as Systems Engineer Trainee</li>
+<li>Had direct interactions with the client in requirement analysis, involved in development and migration</li>
+<li>Worked on Blaze rule engine, IBM Clearcase</li>
+</ul>
+</div>
+<h2 class="padLeftP pinkText">Contact Details</h2>
+<p id="Contacts" class="padLeftP">
+<span class="glyphicon glyphicon-envelope"></span> kxk152430@utdallas.edu<br>
+<span class="glyphicon glyphicon-earphone"></span> +1-469-720-9883<br>
+</p>
+
+<h2 class="padLeftP pinkText">Links</h2>
+<p id="Links" class="padLeftP">
+<span class="fa fa-linkedin-square"></span> <a href="https://www.linkedin.com/in/karthikakarunakaran28">https://www.linkedin.com/in/karthikakarunakaran28</a><br>
+<span class="fa fa-github"></span> <a href="https://github.com/karthikakaran/">https://github.com/karthikakaran</a><br>
+</p>
+       </div>
+       <div class="col-sm-4 d2 part2Div">
+          <div class="row">
+            <embed src="Hw1.pdf">
+            <h3>Quote</h3> 
+            <p class="padLeftP italic">Believe you can and you're halfway there<br> - Theodore Roosevelt</p>
+            <h3>Organizations</h3>
+            <p class="padLeftP fontSizeCert">
+		<span class="glyphicon glyphicon-hand-right"></span> Women who compute<br>
+		<span class="glyphicon glyphicon-hand-right"></span> Grads of computer Science<br>
+		<span class="glyphicon glyphicon-hand-right"></span> Indian Student Organization<br>
+		<span class="glyphicon glyphicon-hand-right"></span> IWIN
+            </p>
+	    <div class="part2Div"></div>
+	    <h3>Certifications</h3>
+            <p class="padLeftP fontSizeCert" id="Certifications">
+		<span class="glyphicon glyphicon glyphicon-bookmark"></span> Certified JAVA Programmer<br>
+		<span class="glyphicon glyphicon glyphicon-bookmark"></span> Certified C Programmer<br>
+		<span class="glyphicon glyphicon glyphicon-bookmark"></span> UTD Big Data Club Certified<br>
+            </p>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+

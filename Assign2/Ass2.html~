@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+<style>
+img {
+    position: absolute;
+    left: 0px;
+    border:5px solid white;
+    z-index: -1;
+    width: 100%;
+    height: 100%
+}
+.container{
+    position: absolute;
+    bottom: 100px;
+    left:50px;
+    text-align: center;
+}
+.gap{
+  padding-right:150px;
+}
+.glyphicon-circle-arrow-left {
+    color:white;
+    position: absolute;
+    top: 500px;
+    left:10px;
+    font-size: 40px;
+}
+.glyphicon-circle-arrow-right {  
+    color:white; 
+    position: absolute;
+    top: 500px;
+    right:10px;
+    font-size: 40px;
+}
+</style>
+<script>
+$(document).ready(function(){
+var img = $('img');
+var description = $('#desc');
+var backgrounds = new Array(
+          "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img0.jpg"
+        , "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img1.jpg"
+        , "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img2.jpg"
+	, "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img3.jpg"
+	, "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img4.jpg"
+	, "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img5.jpg"
+	, "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img6.jpg"
+	, "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img7.jpg"
+	, "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img8.jpg"
+	, "/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img9.jpg"
+);
+var descrips = new Array(
+          "Sun Set and Sea"
+        , "Amsterdam Fields"
+        , "imgFarm House Beauty"
+	, "Color House Venice"
+	, "Lavendar Beauty"
+	, "Blue Snow Island"
+	, "Water Fall"
+	, "Yellow Forest"
+	, "Beauty Rail Track"
+	, "Voilet Sea Shore"
+
+);
+
+var current = 0;
+function changeBg(){
+   var src = backgrounds[current];
+   img.attr("src", src);
+   img.attr("alt", descrips[current]);  
+   //img.css('z-index',-1);   
+   description.text(descrips[current]);
+}
+$('#left').click(function(){
+  current--;
+  current = Math.max(0,current);
+  changeBg();
+});
+
+$('#right').click(function(){
+  current++;
+  current = Math.min(9,current);
+  changeBg();
+});
+
+$('button').click(function(){
+  var id = $(this).attr('id');
+  current = parseInt(id);
+  changeBg();
+})
+//img.attr("src", backgrounds[0]);  
+});
+</script>
+</head>
+<body>
+<img src="/home/vaishthiru/Desktop/WPL Assign/Assign2/Imgs/img0.jpg" alt="Trolltunga hill">
+<div id="container">
+ <span id="left" class="glyphicon glyphicon-circle-arrow-left"></span>
+ <span id="right" class="glyphicon glyphicon-circle-arrow-right"></span>
+</div>
+<div class="container">
+<span class="gap"><span id="desc" class="btn btn-default">Sun set and sea</span></span>
+<span class="bt">
+	<button type="button" class="btn btn-default" id="0" value="0">1</button>
+	<button type="button" class="btn btn-default" id="1" value="1">2</button>
+	<button type="button" class="btn btn-default" id="2" value="2">3</button>
+	<button type="button" class="btn btn-default" id="3" value="3">4</button>
+	<button type="button" class="btn btn-default" id="4" value="4">5</button>
+	<button type="button" class="btn btn-default" id="5" value="5">6</button>
+	<button type="button" class="btn btn-default" id="6" value="6">7</button>
+	<button type="button" class="btn btn-default" id="7" value="7">8</button>
+	<button type="button" class="btn btn-default" id="8" value="8">9</button>
+	<button type="button" class="btn btn-default" id="9" value="9">10</button>
+</span>
+</div>
+</body>
+</html>
+

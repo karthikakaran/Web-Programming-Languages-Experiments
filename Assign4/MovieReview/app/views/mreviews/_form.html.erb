@@ -1,0 +1,14 @@
+<%= form_for([@review, @review.mreviews.build]) do |f| %>
+    
+  <p>
+    <%= f.label :reviewer %><br>
+    <%= f.text_field :reviewer %>
+  </p>
+  <p>
+    <%= f.label :comment %><br>
+    <%= f.text_area :comment %>
+  </p>
+  <p>
+    <%= f.submit 'SAVE REVIEW', class:'button' %>
+  </p>
+<% end %>

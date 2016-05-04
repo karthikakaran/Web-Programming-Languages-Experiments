@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+   <head>
+      <meta http-equiv = "Content-Type" content = "text/html; charset = iso-8859-1" />
+      <meta http-equiv = "Content-Language" content = "en-us" />
+      <title>Movie Listings</title>
+   </head>
+
+   <body id = "library">
+      <div id = "container">         
+        <div id = "header"><h1>Movie Details</h1></div>
+	<div id="content">
+		<p>
+		  <strong>Movie Title :</strong>&emsp;
+		  <%= @review.movietitle %>
+		</p>
+		<p>
+		  <strong>Year :</strong>&emsp;&emsp;&emsp;&emsp;
+		  <%= @review.year %>
+		</p>
+		<p>
+		  <strong>IMDB Rating :</strong>&emsp;
+		  <%= @review.rating %>
+		</p> 
+		<p>
+		  <strong>Description :</strong>&emsp;
+		  <%= @review.description %>
+		</p>
+		<p>
+		  <strong>Image : </strong>&emsp;&emsp;&emsp;
+		  <%= image_tag( "#{@review.id}"+".jpg", :alt => "movie img") %>
+		</p>
+
+		<h2>Reviews</h2>
+		<%= render @review.mreviews %>
+		 
+		<h2>Add a review:</h2>
+		<%= render 'mreviews/form' %>
+
+		<div id = "sidebar">
+		<%= link_to 'Edit', edit_review_path(@review) %> |
+		<%= link_to 'Back', reviews_path %>
+		</div>
+	</div>
+      </div>
+   </body>
+
+</html>
